@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #BFDDF3;
+    width: 100%;
+    background-image: url(./src/background.png);
+    background-position: 0;
+    background-size: 40%;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    background-color: #7095ad;
+    background: linear-gradient(to bottom, #7092a8, #8ca9bd);
+    padding: 1rem;
+    border-radius: 15px;
+    gap: 1rem;
+    height: 540px;
+    z-index: 100;
+}
+
+.foto{
+    height: 480px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.texto{
+    color: #fff5d4;
+    font-size: 1.1rem;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.carrossel{
+    margin-top: 4rem;
+    z-index: 10;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color:#bfddf380 !important;
+    background-image: url(./src/bg1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.musica{
+    z-index: 10;
+}
+
+#confetes{
+    opacity: 1;
+}
+
+#confete1, #confete2{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+}
+
+#confete1 img, #confete2 img{
+    height: 900px;
+}
+
+
+#confete1{
+    left:0;
+}
+
+#confete2{
+    right:0;
+}
+
+.fim{
+    text-align: end;
+}
