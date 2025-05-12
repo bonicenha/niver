@@ -63,10 +63,6 @@ audio::-webkit-media-controls-panel{
     z-index: 10;
 }
 
-#confetes{
-    opacity: 1;
-}
-
 #confete1, #confete2{
     z-index: 1;
     position: fixed;
