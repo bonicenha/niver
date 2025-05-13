@@ -48,7 +48,7 @@ body{
 }
 
 .carrossel{
-    margin-top: 4rem;
+    margin-top: 3rem;
     z-index: 10;
 }
 
@@ -59,8 +59,12 @@ audio::-webkit-media-controls-panel{
     background-repeat: no-repeat;
 }
 
-.musica{
+.inferior{
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
 }
 
 #confete1, #confete2{
@@ -84,4 +88,27 @@ audio::-webkit-media-controls-panel{
 
 .fim{
     text-align: end;
+}
+
+.botao-confete{
+    font-weight: bold;
+    color: #fff5d4;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #90b7d299;
+    height: 54px;
+    width: 200px;
+    cursor: pointer;
+    user-select: none;
+    transition: 100ms;
+    background-image: url(./src/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+}
+
+.botao-confete:hover{
+    transform: scale(1.2);
 }
